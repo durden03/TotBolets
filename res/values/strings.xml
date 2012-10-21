@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">TotBolets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="cerca">Cerca</string>
+    <string name="title_activity_bolet">BoletActivity</string>
+    <string name="endarrere">Endarrere</string>
+    <string name="nombolet">NomBolet</string>
+    <string name="nomcientific">Nom cientific:</string>
+    <string name="altresnoms">Altres noms:</string>
+    <string name="classeBolet">ClasseBolet</string>
+    <string name="habitat">Habitat:</string>
+    <string name="gastronomia">Gastronomia:</string>
+    <string name="confusio">Confusio:</string>
+
+</resources>

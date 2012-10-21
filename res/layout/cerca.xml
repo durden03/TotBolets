@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="444dp" >
+
+    <RelativeLayout
+        android:id="@+id/LayoutFiltre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btnCerca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/cerca" />
+
+        <EditText
+            android:id="@+id/etCercaBolet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnCerca"
+            android:ems="10"
+            android:hint="Introdueix un bolet a cercar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutLlista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LayoutFiltre" >
+
+        <ListView
+            android:id="@+id/lvLlistaBolets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/txtCercaBolet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+            android:text="Pots cercar els bolets a partir del nom o del nom cientific"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
