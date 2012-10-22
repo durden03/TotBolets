@@ -21,7 +21,7 @@ public class MenuActivity extends TabActivity{
 	private void setTabs(){
 		addTab("TotBolet", R.drawable.tab_totbolet, Tab1ActivityStack.class);
 		addTab("Cerca", R.drawable.tab_cerca, Tab2ActivityStack.class);
-		addTab("Joc", R.drawable.tab_joc, Tab2ActivityStack.class);		
+		addTab("Joc", R.drawable.tab_joc, Tab3ActivityStack.class);		
 	}
 	
 	private void addTab(String labelId, int drawableId, Class<?> c){

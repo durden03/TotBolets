@@ -14,5 +14,13 @@
     <string name="habitat">Habitat:</string>
     <string name="gastronomia">Gastronomia:</string>
     <string name="confusio">Confusio:</string>
+    <string name="errors">ERRORS</string>
+    <string name="punts">PUNTS</string>
+    <string name="record">RECORD</string>
+    <string name="resposta">RESPOSTA?</string>
+    <string name="pregunta">Quin és el bolet que estem observant?</string>
+    <string name="botobolet">BoletResposta</string>
+    <string name="novapartida">Nova Partida</string>
+    
 
 </resources>
